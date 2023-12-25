@@ -28,7 +28,7 @@ function check() {
 
 function enter() {
   if (check()) {
-    window.location.href = "home.html";
+    window.location.href = "./html/home.html";
   } else {
     loginMassage.classList.remove("d-none");
     loginMassage.classList.add("d-block");
